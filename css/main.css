@@ -1,0 +1,124 @@
+
+h1.nomeLoja {
+    color: #1BB4E8;
+    font-size: 172%;
+}
+h2.slogan {
+    font-size: 100%;
+    color: #fff;
+}
+
+li.nav-item {
+    margin-right: 38px;
+}
+
+li a.nav-link{
+    font-size: 125%;
+}
+
+li a.nav-link:hover{
+    color: #1BB4E8!important;
+}
+
+
+li a.nav-link.active{
+    color: #1BB4E8!important;
+}
+
+a.menu-diviser::after{
+content: '|';
+margin-left: 41px;
+color: white!important;
+}
+
+.bg-azul {
+    background-color: #1BB4E8;
+}
+
+.bg-marron{
+    background-color: #C6B07F;
+}
+
+.bg-cinza{
+    background-color: #EBEBEB;
+}
+
+.text-marron{
+    color: #C6B07F!important;
+}
+
+figure.banner-principal{
+    position: relative;
+}
+
+figure.banner-principal figcaption {
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    right: 15%;
+    bottom: 29%;
+    padding: 1%;
+    width: 440px;
+}
+
+figure.banner-principal figcaption h3{
+    color: white;
+    font-size: 173%;
+   
+}
+
+
+figure.banner-principal figcaption img{
+    display: inline-block;
+    
+}
+
+figure.banner-principal figcaption p{
+    display: inline-block;
+    color: white;
+}
+
+span.spnDestino {
+    background-color: #1BB4E8;
+    padding: .5%;
+    display: block;
+}
+
+span.spnFrota {
+    background-color: #C6B07F;
+    padding: .5%;
+    display: block;
+}
+
+h4.tituloSecaoSec {
+    color: white;
+    font-size: 240%;
+
+}
+
+h4.tituloSecaoSec::before {
+    content: url(../img/destino.png);
+}
+
+img.w-88{
+    width: 88%;
+}
+
+.mt-24{
+    margin-top: 2.4rem;
+}
+
+footer{
+    padding: 1%;
+
+}
+footer:not(.f-index){
+
+    margin-top: 282px;
+}
+
+footer i {
+    display: inline-block;
+}
+footer p {
+    display: inline-block;
+}
